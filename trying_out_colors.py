@@ -17,7 +17,7 @@ def get_main_color(file):
 		raise Exception("Too many colors in the image")
 
 
-# file_name = "cropped.png"
+# file_name = "destination.png"
 # image = Image.open(file_name)
 # main_color = get_main_color(file_name)
 # print(main_color)

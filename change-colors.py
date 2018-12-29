@@ -3,6 +3,6 @@
 import numpy as np
 import cv2
 
-im = cv2.imread('arch.png')
-im[np.where((im == [0, 0, 0]).all(axis=2))] = [0, 33, 166]
-cv2.write('test.png', im)
+im = cv2.imread('destination.png')
+im[np.where((im == [103, 65, 46]).all(axis=2))] = [155, 99, 72]
+cv2.imwrite('test.png', im)
